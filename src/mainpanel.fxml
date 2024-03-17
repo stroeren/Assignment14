@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.SplitMenuButton?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField layoutX="151.0" layoutY="194.0" />
-      <Button layoutX="329.0" layoutY="194.0" mnemonicParsing="false" text="Go" AnchorPane.leftAnchor="329.0" AnchorPane.rightAnchor="239.0" AnchorPane.topAnchor="194.0" />
-      <SplitMenuButton layoutX="390.0" layoutY="194.0" mnemonicParsing="false" text="Choose Conversion">
-        <items>
-          <MenuItem mnemonicParsing="false" text="Miles to Kilometers" />
-          <MenuItem mnemonicParsing="false" text="Feet to Meters" />
-            <MenuItem mnemonicParsing="false" text="Inches to Centimeters" />
-            <MenuItem mnemonicParsing="false" text="Pounds to Kilograms" />
-        </items>
-      </SplitMenuButton>
+      <TextField fx:id="inchesField" layoutX="151.0" layoutY="90.0" />
+      <TextField fx:id="cmField" layoutX="151.0" layoutY="132.0" />
+      <Button fx:id="convertToCmButton" layoutX="319.0" layoutY="90.0" mnemonicParsing="false" onAction="#convertToCentimeters" text="Button" />
+      <Button fx:id="convertToInchesButton" layoutX="319.0" layoutY="132.0" mnemonicParsing="false" onAction="#convertToInches" text="Button" />
+      <Button fx:id="convertToKgButton" layoutX="319.0" layoutY="175.0" mnemonicParsing="false" onAction="#convertToKilograms" text="Button" />
+      <Button fx:id="convertToPoundsButton" layoutX="319.0" layoutY="219.0" mnemonicParsing="false" onAction="#convertToPounds" text="Button" />
+      <TextField fx:id="poundsField" layoutX="151.0" layoutY="175.0" />
+      <TextField fx:id="kgField" layoutX="151.0" layoutY="219.0" />
    </children>
 </AnchorPane>
