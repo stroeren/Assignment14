@@ -1,18 +1,21 @@
-## Getting Started
+# JavaFX Conversion Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple JavaFX application for converting between different units of measurement.
 
-## Folder Structure
+## Prerequisites
 
-The workspace contains two folders by default, where:
+- Java 11 or later
+- JavaFX SDK 11 or later
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Setup
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone the repository: `git clone https://github.com/yourusername/yourrepository.git`
+2. Download the JavaFX SDK from [Gluon's website](https://gluonhq.com/products/javafx/).
+3. Extract the downloaded file to a known location on your computer.
+5. Update the locations of where the java fx library is.
+4. Update the `vmArgs` in the `.vscode/launch.json` file with the path to the `lib` directory in the JavaFX SDK directory.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Running the Application
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Open the project in Visual Studio Code.
+2. Press F5 to start debugging. The application should launch in a new window.
