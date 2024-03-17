@@ -12,8 +12,8 @@
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${file}",
-            "projectName": "${workspaceFolderBasename}",
+            "mainClass": "App",
+            "projectName": "Assignment14_c59d572a",
             "vmArgs": "--module-path \"C:\\Users\\Spencer Roeren\\Downloads\\openjfx-21.0.2_windows-x64_bin-sdk\\javafx-sdk-21.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]

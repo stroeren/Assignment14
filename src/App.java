@@ -76,7 +76,7 @@ public class App extends Application {
     private void convertToPounds() {
         double kg = Double.parseDouble(kgField.getText());
         double pounds = kg / 0.453592;
-        kgField.setText(String.format("%.2f", pounds));
+        poundsField.setText(String.format("%.2f", pounds));
     }
 
     public static void main(String[] args) {
