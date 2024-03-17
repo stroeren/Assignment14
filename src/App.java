@@ -1,11 +1,18 @@
-import java.util.Scanner;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
-        System.out.println("Hello " + name);
-        scanner.close();
+
+    @FXML
+    private ResourceBundle resources;
+
+    @FXML
+    private URL location;
+
+    @FXML
+    void initialize() {
+
     }
+
 }
